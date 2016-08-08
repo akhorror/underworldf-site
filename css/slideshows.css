@@ -1,0 +1,81 @@
+#active-projects {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: left;
+	width: 1020px;
+	height: 270px;
+}
+
+#project-titulo, #project-nombre, #project-num{
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	background: rgba(0,0,0,0.75);
+	color: #ffffff;
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	-o-user-select: none;
+	user-select: none;
+}
+
+#project-titulo {
+	top: 0px;
+	right: 0px;
+	line-height: 25px;
+	min-width: 100px;
+}
+
+#project-nombre {
+	top: 220px;
+	right: 10px;
+	min-width: 100px;
+}
+
+#project-num {
+	top: 220px;
+	left: 10px;
+	min-width: 50px;
+}
+
+#arrowleft{
+	width: 50px;
+	height: 50px;
+	top: 115px;
+	left: 10px;
+}
+
+#arrowright {
+	width: 50px;
+	height: 50px;
+	top: 115px;
+	right: 10px;
+}
+
+/* jssor slider arrow navigator skin 09 css */
+/*
+.jssora09l              (normal)
+.jssora09r              (normal)
+.jssora09l:hover        (normal mouseover)
+.jssora09r:hover        (normal mouseover)
+.jssora09ldn            (mousedown)
+.jssora09rdn            (mousedown)
+*/
+.jssora09l, .jssora09r, .jssora09ldn, .jssora09rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../images/slider/arrows.png) no-repeat;
+	overflow:hidden;
+	opacity: .35; filter:alpha(opacity=35);
+}
+.jssora09l { background-position: -5px -35px; }
+.jssora09r { background-position: -65px -35px; }
+.jssora09l:hover { background-position: -5px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora09r:hover { background-position: -65px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora09ldn { background-position: -5px -35px; opacity: .3; filter:alpha(opacity=30); }
+.jssora09rdn { background-position: -65px -35px; opacity: .3; filter:alpha(opacity=30); }

@@ -1,0 +1,191 @@
+.content_proyecto{
+
+}
+
+.content_proyecto_banner{
+	padding: 40px 30px 40px 30px;
+    background: rgba(25, 25, 25, 0.69);
+}
+
+.content_proyecto_banner h1{
+	color: #fff;
+    font-size: 18px;
+}
+.content_proyecto_half{
+	width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.content_proyecto_avatar{
+	border: 4px solid #fff;
+    border-radius: 4px;
+    width: 156px;
+}
+
+.content_proyecto_half .proyecto_anime_info{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: calc(100% - 156px - 4px);
+}
+
+.content_proyecto_half .proyecto_ficha_titulo{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.content_proyecto_half .proyecto_ficha_fila{
+    color: #fff;
+    font-size: 14px;
+}
+
+.content_proyecto_half .proyecto_resolucion {
+    border-right: 1px solid #bbb;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.content_proyecto_half .proyecto_resolucion:last-child {
+    border-right: none;
+}
+
+.content_proyecto_staff{
+	background: #393939;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+.content_proyecto_staff_item{
+	display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}
+.content_proyecto_staff_item:first-child {
+    border-left: none;
+}
+.content_proyecto_staff_item span{
+    color: #C52D2D;
+}
+.content_proyecto_staff_item a{
+    color: #C52D2D!important;
+}
+
+.content_proyecto_separator{
+	background: #fff;
+	padding: 10px;
+}
+
+.content_proyecto_downloads_title{
+	background: #C52D2D;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+
+.content_proyecto_reporte_title{
+	background: #000;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+
+/* Decoraciones de los links*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.content_proyecto_downloads_header{
+	background: #393939;
+	padding: 5px;
+	font-size: 16px;
+	color: #fff;
+	display: table;
+	width: 100%;
+}
+
+.content_proyecto_downloads_episode_column{
+	display: inline-block;
+	text-align: center;
+	padding: 10px 15px;
+	font-weight: 700;
+	text-align: left;
+	width: 46%;
+	max-width: 46%;
+	vertical-align: middle;
+}
+
+.content_proyecto_downloads_format_column{
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid #C2C7D6;
+	padding: 10px 15px;
+	font-weight: 700;
+	width: 18%;
+	vertical-align: middle;
+}
+.content_proyecto_downloads_format_column:last-child {
+    border-right: none;
+}
+
+.content_proyecto_downloads_body{
+	background: #fff;
+	padding: 5px;
+	font-size: 16px;
+	color: #393939;
+	display: table;
+	width: 100%;
+}
+
+.count_4 .content_proyecto_downloads_episode_column{
+    width: 48%;
+    max-width: 46%;
+}
+.count_4 .content_proyecto_downloads_format_column{
+    width: 13%;
+}
+
+
+/* PINSHIS FIXIS ? */
+
+@-moz-document url-prefix() {
+    .content_proyecto_downloads_format_column {
+        width: 17.5%;
+    }
+}

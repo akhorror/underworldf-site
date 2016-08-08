@@ -1,0 +1,111 @@
+/* override styles.css*/
+.container{
+	position: relative;
+}
+
+/* end override */
+
+.content_proyectos{
+	padding: 12px;
+	position: relative;
+}
+
+/**/
+
+.title{
+	width: 100%;
+	height: 60px;
+	background-image: url("../images/general/separador.jpg");
+	color: #fff;
+	margin: 10px 0;
+}
+.title h2{
+	font-size: 40px;
+	margin: 0 10px;
+}
+/**/
+.item_serie{ 
+	position: relative;
+	display: block;
+	width: 185px;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	display: block;
+}
+.item_serie img{
+	width: 100%;
+	height: 275px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.content_ser .item_serie .text_container{
+    	display: block;
+    	margin: 0 auto;
+}
+
+.content_ser .item_serie .text_container .text_content{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+    position: absolute;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -o-flex;
+	-webkit-justify-content:center;
+	-webkit-align-items:center;
+	-moz-justify-content:center;
+	-moz-align-items:center;
+	-o-justify-content:center;
+	-o-align-items:center;
+	margin: 0 auto;
+    top:0%;
+	background: rgba(0,0,0,0.8);
+	-webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+	opacity: 0;
+	text-align: center;
+}
+/*h3:hover{
+	color: rgb(250,0,0);
+	text-decoration: oblique;
+}*/
+
+a{
+	text-decoration: none;
+}
+
+ .text_content span{
+	color: #fff;
+}
+
+.content_ser .item_serie:hover  .text_container .text_content {
+  opacity: 1;
+}
+
+
+.sibebar_series {
+	display: none;
+	
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */

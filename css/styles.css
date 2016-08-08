@@ -1,0 +1,461 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #CF2D2D;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #CF2D2D;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #CF2D2D;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #CF2D2D;
+}
+
+html { 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d20337+0,131313+78,131313+100 */
+background: #a00305; /* Old browsers */
+background: -moz-linear-gradient(top,  #a00305 0%, #000000 81%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a00305 0%,#000000 81%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a00305 0%,#000000 81%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a00305', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+background-attachment: fixed;
+}
+
+body {
+    background: #d20337;
+    color: #333;
+    font: 13px/1.5 "Open Sans",Arial,sans-serif;
+    background: url(../images/bg-render.png) no-repeat center center fixed;
+    background-attachment: fixed;
+    overflow: scroll;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+header{
+    width: 1020px;
+    margin: 0 auto;
+
+}
+
+header .logo{
+    height: 145px;
+    background: url('../images/banners/banner_1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.donate-button {
+
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display: inline-block;
+    	position: relative;
+    	top: 0px;
+    	float: right;
+   	margin: 5px;
+	cursor:pointer;
+	color:#333333;
+    	outline: 0;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.donate-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.donate-button:active {
+	position:relative;
+	top:1px;
+}
+
+/* MENU */
+
+    #cssmenu {
+        border: none;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+        font-weight: bold;
+        width: auto;
+    }
+    #cssmenu ul {
+        background: #242424;
+        height: 40px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #cssmenu li {
+        float: left;
+        padding: 0px;
+    }
+
+    #cssmenu li a {
+        background: #242424;
+        display: block;
+        font-weight: normal;
+        line-height: 40px;
+        margin: 0px;
+        padding: 0px 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #cssmenu > ul > li > a {
+        color: #ffffff;
+    }
+
+    #cssmenu li.active a {
+        background-color: #c52d2d;
+    }
+
+    #cssmenu ul ul a {
+        color: #ffffff;
+    }
+    #cssmenu li > a:hover,
+    #cssmenu ul li:hover > a {
+        background: #c52d2d;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    #cssmenu li ul {
+        background: #333333;
+        display: none;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        position: absolute;
+        width: 225px;
+        z-index: 200;
+
+        /*top:1em;
+
+        /*left:0;*/
+
+    }
+    #cssmenu li:hover ul {
+        display: block;
+    }
+    #cssmenu li li {
+        background: 494949;
+        display: block;
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        width: 225px;
+    }
+    #cssmenu li:hover li a {
+        background: none;
+    }
+    #cssmenu li ul a {
+        display: block;
+        height: 35px;
+        font-size: 13px;
+        font-style: normal;
+        margin: 0px;
+        padding: 0px 10px 0px 15px;
+        text-align: left;
+    }
+    #cssmenu li ul a:hover,
+    #cssmenu li ul li:hover > a {
+        background: #c52d2d;
+        border: 0px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    #cssmenu p {
+        clear: left;
+    }
+    #cssmenu ul ul li {
+        position: relative;
+    }
+    #cssmenu ul ul ul {
+        left: -9999px;
+        top: 0;
+    }
+    #cssmenu ul ul li:hover > ul {
+        left: 100%;
+    }
+    #cssmenu.align-center > ul > li {
+        display: inline-block;
+        float: none;
+    }
+    #cssmenu.align-center > ul {
+        text-align: center;
+    }
+    #cssmenu > ul > li {
+        position: relative;
+    }
+    #cssmenu.align-right > ul > li {
+        float: right;
+    }
+    #cssmenu.align-right > ul > li:hover > ul {
+        right: 0;
+        left: auto;
+        text-align: right;
+    }
+    #cssmenu.align-right ul ul li a {
+        text-align: right;
+    }
+    #cssmenu.align-right ul ul li:hover > ul {
+        left: auto;
+        right: 100%;
+    }
+
+.container{
+	width: 1020px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.container .home_slider img{
+	height: 350px;/*437px;*/
+	width: 100%;
+	display: block;
+}
+
+.container .content{
+	background-color: #fff;
+	float: left;
+	width: 100%;
+}
+
+.container .content_full{
+	background-color: #fff;
+	float: left;
+	width: 100%;
+	padding: 40px;
+}
+
+.container .content .content_left{
+    float: left;
+    width: calc(100% - 300px - 6px);
+    vertical-align: top;
+	padding-right: 6px;
+}
+
+.container .content .sidebar{
+    float: right;
+    width: 300px;
+    /*background-color: red;*/
+    vertical-align: top;
+	    margin-right: 4px;
+}
+
+.home_episode{
+	float: left;
+	width: calc(100% / 3);
+	/*width: 287px;*/
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+.home_episode img{
+    /*min-width: 236px;
+    max-width: 236px;*/
+	width: 100%;
+    max-height: 169px;
+	display: block;
+	cursor: pointer;
+}
+.home_episode img:hover{
+   opacity: 0.8;
+}
+
+.home_episode a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+.home_episode .tags a{
+	padding-left: 0px;
+	color: #aa464a;
+}
+.home_episode .episode_link{
+	color: #000;
+	padding-left: 20px;
+	font-size: 15px;
+    display: block;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.home_episode .episode_name{
+	color: #000;
+	padding-left: 30px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.home_episode .tags{
+	color: #000;
+	padding-left: 40px;
+	font-size: 11px;
+}
+
+.container .announces{
+	width: 100%;
+    position: relative;
+    clear: both;
+}
+.container .announces .title{
+    color: #FFF;
+    font-size: 16px;
+    width: 155px;
+    height: 45px;
+    padding: 10px;
+    background-color: #242424;
+    position: absolute;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+.container .announces .announces_body{
+    display: block;
+	background-color: #242424;
+    -webkit-transition: background-color 350ms;
+    -moz-transition: background-color 350ms;
+    transition: background-color 350ms;
+    overflow: hidden;
+    position: relative;
+    height: 45px;
+    font-size: 15px;
+}
+.container .announces .announces_body a{
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+.content_title {
+    color: #323033;
+    padding: 15px;
+    /*border-bottom: solid 1px #323033;
+    width: 50%;*/
+    margin: 0 auto 14px auto;
+	text-align: center;
+	font-size: 16px;
+}
+.content_title:after {
+    content: "";
+    width: 129px;
+    height: 19px;
+    background: url("../images/separator.png") 0 0 no-repeat;
+    /*background-color: #dfdfdf;*/
+    display: block;
+    margin: 0 auto;
+}
+
+.widget_title {
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto 14px auto;
+	text-align: center;
+	font-size: 14px;
+}
+
+.widget_title:after{
+	content: "";
+	width: 190px;
+	height: 10px;
+	display: block;
+    border-bottom: solid 1px #FFF;
+	margin: 0 auto;
+}
+
+footer {
+	width: 1020px;
+	clear: both;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	background-color: #151515;
+	text-align: center;
+}
+
+footer .afiliates{
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer .copyright {
+    color: #fff;
+    margin-top: 40px;
+    background-color: #151515;
+    padding: 15px 20px 15px 20px;
+}
+
+footer .copyright a {
+    color: #00C7FC;
+    text-decoration: none;
+}
+
+footer .copyright span{
+    color: #C52D2D;
+}
+
+footer .copyright .left{
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+footer .copyright .right{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+
+footer .copyright .right .developer_logo{
+    display: block;
+    vertical-align: middle;
+}
+
+footer .copyright .right .developer_logo *{
+    vertical-align: middle;
+}

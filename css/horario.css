@@ -1,0 +1,58 @@
+.content_horario h1 {
+	text-align: center;
+}
+
+.content_horario h2 {
+	margin-left: 20px;
+}
+/*
+ .content_horario img{
+    margin: 0 auto;
+    display: block;
+}*/
+
+.item_day .item_anime{
+	position: relative;
+	display: block;
+	/*background-color: red;*/
+}
+
+.item_day .item_anime img{
+	height: 70px;
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+
+.item_day .item_anime .text_container{
+    	width: 700px;
+    	display: block;
+    	margin: 0 auto;
+	/*background-color: black;*/
+}
+
+.item_day .item_anime .text_container .text_content{
+    	position: absolute;
+	display: table;
+	margin: 0 auto;
+    	top: 0;
+	height: 70px;
+	width: 700px;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	-webkit-transition: opacity 500ms;
+    	-moz-transition: opacity 500ms;
+    	-o-transition: opacity 500ms;
+    	transition: opacity 500ms;
+	opacity: 0;
+}
+
+.item_day .item_anime .text_container .text_content span{
+	color: #fff;
+	display: table-cell;
+    	vertical-align: middle;
+}
+
+.item_day .item_anime:hover  .text_container .text_content {
+  opacity: 1;
+}

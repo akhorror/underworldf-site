@@ -1,0 +1,65 @@
+.follow-sidebar {
+    left: 0;
+    float: bottom;
+    right: auto;
+    position: fixed;
+    display: block;
+    top: 30%;
+    width: 48px;
+}
+
+.follow-sidebar a {
+    position: relative;
+    display: block;
+    width: 48px;
+    padding: 4px 0px;
+    outline: none;
+    text-align: center;
+    float: bottom;
+    text-decoration: none;
+}
+
+.follow-rss {
+    background: #f47821;
+    transition: all .2s ease-in-out;
+}
+
+.follow-rss:hover {
+    width: 64px;
+}
+
+.follow-facebook {
+    background: #305891;
+    transition: all .2s ease-in-out;
+}
+
+.follow-facebook:hover {
+    width: 64px;
+}
+
+.follow-twitter {
+    background: #2ca8d2;
+    transition: all .2s ease-in-out;
+}
+
+.follow-twitter:hover {
+    width: 64px;
+}
+
+.follow-hentaikku {
+    background: #3a405a;
+    transition: all .2s ease-in-out;
+}
+
+.follow-hentaikku:hover {
+    width: 64px;
+}
+
+.follow-inferos {
+    background: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+.follow-inferos:hover {
+    width: 64px;
+}
