@@ -5,6 +5,13 @@
 
 ## Soporte
  * [Laravel - The PHP Framework For Web Artisans](https://laravel.com/).
+ * [Cloudflare CDN](http://www.cloudflare.com/)
+ * [Disqus Comment System](http://disqus.com/)
+ * [Jssor Slider](http://www.jssor.com/index.html)
+ * [Facebook Page Plugin](https://developers.facebook.com/docs/plugins/page-plugin)
+ * [Expanding Search Bar Deconstructed](http://tympanus.net/codrops/2013/06/26/expanding-search-bar-deconstructed/)
+ * [Creative Gooey Effects](http://tympanus.net/Development/CreativeGooeyEffects/send.html)
+ * [Chat by Chatango](http://chatango.com/)
 
 ## Documentacion
  * [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
