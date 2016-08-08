@@ -14,13 +14,8 @@
 Contribuciones son bienvenidas. Por favor usa github o [contactanos](http://www.underworldfansub.net/contacto)  
 
 ## Creditos
-
-[Akhorror](https://unbreakableside.wordpress.com/) / [github](https://github.com/akhorror) - Diseño Web / BD.
-
-[Frans185](http://frans.moe/) - Desarrollo Web / BD.
-
-[Alv](https://github.com/alvaromonsalve) - Apoyo en el Codigo.  
-
-Gospel - Apoyo en el Codigo.  
-
-Getaudio - Apoyo en el codigo & BD.
+ * [Akhorror](https://github.com/akhorror) - Diseño Web / BD.
+ * [Frans185](http://frans.moe/) - Desarrollo Web / BD.
+ * [Alv](https://github.com/alvaromonsalve) - Apoyo en el Codigo.  
+ * Gospel - Apoyo en el Codigo.  
+ * Getaudio - Apoyo en el codigo & BD.
