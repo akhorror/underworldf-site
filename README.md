@@ -4,7 +4,7 @@
  * Codigo del sitio almacenado por futuros imprevistos asi como soluciones a bugs en ella, tambien disponible para modificaciones futuras.
 
 ## Soporte
- * Laravel - The PHP Framework For Web Artisans [Laravel Web](https://laravel.com/).
+ * [Laravel - The PHP Framework For Web Artisans](https://laravel.com/).
 
 ## Documentacion
  * [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
