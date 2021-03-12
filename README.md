@@ -24,5 +24,5 @@ Contribuciones son bienvenidas. Por favor usa github o [contactanos](http://www.
  * [Akhorror](https://github.com/akhorror) - Diseño Web / BD.
  * [Frans185](http://frans.moe/) - Desarrollo Web / BD.
  * [Alv](https://github.com/alvaromonsalve) - Apoyo en el Codigo.  
- * Gospel - Apoyo en el Codigo.  
+ * Gospel - Apoyo en el Codigo/Desarrollo Web
  * Getaudio - Apoyo en el codigo & BD.
